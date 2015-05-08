@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HelloWear</string>
+    <string name="button_message">Press me!</string>
+    <plurals name="number_phone_presses">
+        <item quantity="one">%d phone press</item>
+        <item quantity="other">%d phone presses</item>
+    </plurals>
+    <plurals name="number_watch_presses">
+        <item quantity="one">%d watch press</item>
+        <item quantity="other">%d watch presses</item>
+    </plurals>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        app:layout_box="all">
+
+        <TextView
+            android:id="@+id/phone_button_presses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 phone presses"/>
+
+        <TextView
+            android:id="@+id/watch_button_presses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="0 watch presses"/>
+
+        <Button
+            android:id="@+id/watch_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/button_message"/>
+
+    </LinearLayout>
+
+</android.support.wearable.view.BoxInsetLayout>
