@@ -1,7 +1,14 @@
 .gradle
 /local.properties
-/.idea/workspace.xml
-/.idea/libraries
+.idea/
 .DS_Store
 /build
 /captures
+
+*.iml
+*.ipl
+*.iws
+*.ipr
+atlassian-ide-plugin.xml
+buildSrc/build
+local.properties
